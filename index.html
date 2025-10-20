@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Build Your Own Box Subscription</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Build Your Own Box Subscription</h1>
+    <form id="box-form">
+      <section>
+        <h2>Select Areas</h2>
+        <div id="areas-list" class="checkbox-group"></div>
+      </section>
+      <section>
+        <h2>Select Subareas</h2>
+        <div id="subareas-list" class="checkbox-group"></div>
+      </section>
+      <div class="summary">
+        <p id="summary-text">Base: $29.99/mo</p>
+        <p id="warning" class="hidden">You can select up to 6 total items (areas + subareas).</p>
+      </div>
+      <button type="button" id="subscribe-button">Subscribe Now</button>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
